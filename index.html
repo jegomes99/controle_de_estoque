@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Estoque - Loja de Açaí</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Gestão de Estoque - Loja de Açaí</h1>
+
+<div class="container">
+
+<h2>Adicionar Produto</h2>
+
+<input type="text" id="produto" placeholder="Nome do produto">
+<input type="number" id="quantidade" placeholder="Quantidade">
+
+<button onclick="adicionarProduto()">Adicionar</button>
+
+<h2>Estoque</h2>
+
+<table>
+<thead>
+<tr>
+<th>Produto</th>
+<th>Quantidade</th>
+<th>Ações</th>
+</tr>
+</thead>
+
+<tbody id="tabelaEstoque"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
